@@ -10,4 +10,8 @@ dependencies {
 apollo {
     packageName.set("com.example.schema")
     generateApolloMetadata.set(true)
+    codegenModels.set("operationBased")
+    // Uncomment to make compile/showcase the error
+    // Type com.example.schema.type.Json$Companion is defined multiple times:
+    // alwaysGenerateTypesMatching.set(listOf("Query", "Json"))
 }

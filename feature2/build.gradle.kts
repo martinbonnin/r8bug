@@ -5,6 +5,7 @@ plugins {
 
 dependencies {
     implementation("com.apollographql.apollo3:apollo-runtime:3.2.0")
+    implementation(project(":schema"))
     apolloMetadata(project(":schema"))
 }
 
