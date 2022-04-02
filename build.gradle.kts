@@ -6,3 +6,8 @@ plugins {
     id("com.apollographql.apollo3").version("3.2.0").apply(false)
 }
 
+tasks.all {
+    if (name == "checkServiceApolloDuplicates") {
+        enabled = false
+    }
+}
