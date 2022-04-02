@@ -16,4 +16,4 @@ rootProject.name = "r8bug"
 include ':app'
 include ':schema'
 include ':feature1'
-include ':feature2'
+//include ':feature2'
